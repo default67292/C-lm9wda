@@ -1,16 +1,18 @@
 #include <unistd.h>
 
-void ft_alpha()
+void	ft_alpha(void)
 {
-	char q = 'a';
+	char	q;
 
-	while(q < 'z')
+	q = 'a';
+	while (q < 'z')
 	{
 		write(1, &q, 1);
 		q++;
 	}
 }
-int main()
+
+/*int main()
 {
 	 ft_alpha();
-}
+}*/
